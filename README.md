@@ -1,68 +1,165 @@
-<!DOCTYPE html>
-<html>
-<!--This is a comment where you can put information that you might need the coder to know.-->
-<!--In between the opening and closing html tags is where all of the important information goes like the head and body tags, along with paragraphs, etc.-->
-	<head>
+h1 {
+  	background-color:#28272D;
+	font-family:centurygothic;
+	font-size:60px;	
+	color: #ffffff;
+	margin: 0;
 
-		<meta charset="utf-8">
-		<title> Please Read Online </title>
-		<link rel="stylesheet" type="text/css" href="PleaseReadStyle.css">
-	
-	</head>
+	font-style: italic;
+	text-align: left;
 
-	<body>
+}
 
-	<div class="navbar">
- 		<a href="#Home">Home</a>
- 		<a href="#You">You</a>
-  		<a href="#About Us">About Us</a>
- 		
-  	</div>
+h1 a:link {
+    color:#ffffff;
+	text-decoration:none;
+}
 
-  	<div class="title">
-		
-		<h1><a href="#Home"> Please Read.</a></h1>
+/* visited link */
+h1 a:visited {
+    color:#ffffff;
+	text-decoration:none;
+}
 
-  	</div>
-
-
-
-<div class="main">
-<!--
-  <form action="/action_page.php">
-  	<h3> Join the waitlist to be the first to know about Please Read. features</h3>
-
-  		<input type="text" name="Email" value="" size="80"><br><br>
-  	<input type="submit" value="Submit">
-
-  </form>
--->
-<iframe width="840" height="472" src="https://www.youtube.com/embed/Sdv2bMMpqvk" frameborder="0" allowfullscreen></iframe>
-  
-</div>
-
-	</body>
-
-<div class="footer">
-
-		<a href="https://www.instagram.com/please_read_official/?hl=en" target="_blank">
-  			<img src="insta.png" alt="hey" style="margin-top:8px; width:30px;height:30px;border:0px;">
-  			
-		</a>
+/* mouse over link */
+h1 a:hover {
+    color:#ffffff;
+	text-decoration:none;
+}
 
 
-		<a href="https://www.facebook.com/pleasereadofficial/?ref=aymt_homepage_panel" target="_blank">
-  			<img src="facebook.png" alt="hey" style="margin-top:4px; width:25px;height:25px;border:0px; padding-left: 25px; padding-bottom: 2px;">
-  			
-		</a>
+.navbar a:hover {
+  opacity:0.7;
+  filter:alpha(opacity=70); 
+  box-shadow: 0 0 0px #000000;
+}
 
-		<a href="https://youtu.be/Sdv2bMMpqvk" target="_blank">
-  			<img src="youtube.png" alt="hey" style="margin-top:4px; width:25px;height:25px;border:0px; padding-left: 25px; padding-bottom: 2px;">
-  			
-		</a>
-		
+.navbar b:hover {
+  opacity:0.7;
+  filter:alpha(opacity=70); 
+  box-shadow: 0 0 0px #000000;
+}
 
-  	</div>
 
-</html>
+body{
+	margin: 0px;
+	background-color: #ffffff;
+}
+
+p{
+  	color: #28272D;
+  	font-family: centurygothic;
+  	text-align: center;
+  	padding-top: 200px;
+
+}
+
+form{
+
+	color: #28272D;
+  	font-family: centurygothic;
+  	text-align: center;
+  	padding-top: 200px;
+}
+
+input{
+	color: #28272D;
+  	font-family: centurygothic;
+  	text-align: center;
+  	size: 500px;
+  	margin-bottom: 10px;
+
+}
+
+h2 {
+  	color: #ffffff;
+  	font-family: centurygothic;
+  	font-style: italic;
+  	font-weight: bold;
+}
+
+h3{
+  	color: #28272D;
+  	font-family: centurygothic;
+  	font-style: italic;
+  	font-weight: bold;
+  	padding-bottom: 15px;
+  }
+
+ iframe{
+
+ 	margin-left: 200px;
+ 	margin-top: 50px;
+ }
+
+.navbar {
+  overflow: hidden;
+  color: #33313A;
+  background-color: #33313A;
+  position: fixed; 
+  top: 0;
+  width: 100%;
+  font-family: centurygothic;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 26px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.title{
+	text-indent: 20px;
+	position: fixed; 
+	top: 9%;
+  	background-color:#ffffff; 
+  	width: 100%;
+  	margin-top:-20px;
+  	display: block;
+  	text-align: center;
+}
+
+.main {
+  padding: 20px;
+  margin-top: 65px;
+}
+
+.footer {
+  overflow: hidden;
+  background-color: rgba(51,49,58,30);
+  position: fixed; 
+  bottom: 0;
+  width: 100%;
+  height: 7%;
+  text-align: center;
+}
+
+.footer a{
+  float: center;
+  color: #ffffff;
+  	font-family: centurygothic;
+  	font-style: italic;
+  	font-weight: bold;
+  	font-size: 17px;
+ margin-top:0px;
+ text-decoration: none;
+ border: 0;
+
+}
+
+.footer a:hover {
+  opacity:0.7 !important;
+  filter:alpha(opacity=70) !important; 
+  box-shadow: 0 0 0px #000000 !important;
+
+}
+
+
+
 
